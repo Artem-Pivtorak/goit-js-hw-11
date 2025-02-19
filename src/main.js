@@ -1,10 +1,10 @@
-import { fetchImages } from './pixabay-api';
-import { renderGallery } from './render-functions';
+import { fetchImages } from './js/pixabay-api.js';
+import { renderGallery } from './js/render-functions.js';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import '../css/styles.css';
+import './css/styles.css';
 
 let currentPage = 1;
 let query = '';
