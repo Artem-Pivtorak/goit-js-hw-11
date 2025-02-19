@@ -1,6 +1,6 @@
-import '../css/styles.css';
-import { fetchImages } from './pixabay-api';
-import { renderGallery } from './render-functions';
+import './css/styles.css';
+import { fetchImages } from './src/js/pixabay-api';
+import { renderGallery } from './src/js/render-functions';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import iziToast from 'izitoast';
